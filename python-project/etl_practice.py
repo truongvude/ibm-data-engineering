@@ -6,7 +6,9 @@ from datetime import datetime
 log_file = "log_file.txt" 
 target_file = "transformed_data.csv" 
 
-'''zip file: wget '''
+'''zip file: 
+wget https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0221EN-SkillsNetwork/labs/module%206/Lab%20-%20Extract%20Transform%20Load/data/datasource.zip 
+unzip it'''
 
 def extract_from_csv(file):
     df = pd.read_csv(file)
